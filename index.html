@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>JDGiancola</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <img src="./images/profilepic.jpg" alt="Developer's Photo" />
+        <p>
+          My name is Jo Giancola, I'm 31 and I'm a full stack developer from St.
+          Louis, MO.
+        </p>
+        <p>
+          I love the creativity and problem solving that this line of work
+          brings and love being on the forefront of technology!
+        </p>
+        <p>
+          Please feel free to leave your information at the bottom or take mine
+          and reach out that way!
+        </p>
+        <p>Number: <a href="tel:555-555-555">555-555-555</a></p>
+        <p>Email: <a href="mailto:person@email.net">person@email.net</a></p>
+        <p>
+          Github:
+          <a href="https://github.com/jdgiancola"
+            >https://github.com/jdgiancola</a
+          >
+        </p>
+        <p>I look forward to hearing from you!</p>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item featured">
+            <a
+              href="https://jdgiancola.github.io/horiseon-challenge-page/"
+              target="_blank"
+            >
+              <img
+                src="./images/HoriseonChallangePage.png"
+                alt="Application 1"
+              />
+              <div class="overlay">
+                <div class="text">Horiseon Challange Page</div>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-item">
+            <img src="./images/rainbow.jpg" alt="Application 2" />
+            <div class="overlay">
+              <div class="text">Mock Up</div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="./images/space.jpg" alt="Application 3" />
+            <div class="overlay">
+              <div class="text">Mock Up</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="./js/scrpit.js"></script>
+  </body>
+</html>
